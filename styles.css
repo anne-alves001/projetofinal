@@ -1,0 +1,138 @@
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  color: black
+}
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  color: #4CAF50;
+}
+
+nav.navbar {
+  margin-top: 20px;
+}
+
+.justificado {
+  text-align: justify;
+}
+
+section {
+  margin-top: 20px;
+}
+
+#jobs-section {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#jobs-section h2 {
+  color: #ED1E24;
+  margin-bottom: 30px;
+}
+
+#jobs-section p {
+  margin-bottom: 50px;
+}
+
+#jobs-section a {
+  font-weight: bold;
+  color: #ED1E24;
+}
+
+.job-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.job-box {
+  flex: 1 1 200px;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 300px;
+  background-size: cover;
+  border-right: 2px solid #ED1E24;
+  border-bottom: 2px solid #ED1E24;
+}
+
+.proj1 {
+  background-image: url(imagens/arranjo1.jpg);
+}
+
+.proj2 {
+  background-image: url(imagens/arranjo2.jpg);
+}
+
+.proj3 {
+  background-image: url(imagens/arranjo3.jpg);
+}
+
+.proj4 {
+  background-image: url(imagens/arranjo4.jpg);
+}
+
+.proj5 {
+  background-image: url(imagens/arranjo5.jpg);
+}
+
+.proj6 {
+  background-image: url(imagens/arranjo6.jpg);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  header img {
+    width: 150px;
+  }
+
+  nav.navbar {
+    margin-top: 10px;
+  }
+
+  .job-container {
+    flex-wrap: wrap;
+  }
+
+  .job-box {
+    flex: 1 1 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 25px;
+    border: none;
+  }
+}
+
+@media (max-width: 576px) {
+  header img {
+    width: 100px;
+  }
+
+  .navbar-toggler {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,169 @@
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+nav.navbar {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    color: black
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: #4CAF50;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flower {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 150px;
+    margin: 20px 0;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imgprodut {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#flower-section {
+    margin-top: 50px;
+    background-color: #FFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#flower-section .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flower-container {
+    text-align: center;
+    padding: 60px 25px;
+}
+
+
+.flower-container h3 {
+    color: #ED1E24;
+    font-size: 20px;
+}
+
+.flower-container img {
+    height: 200px;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ED1E24;
+    border-left: 1px solid #ED1E24;
+    border-bottom: 4px solid #ED1E24;
+    border-right: 4px solid #ED1E24;
+}
+
+.flower-container .subtitle {
+    font-weight: bold;
+    color: #ED1E24;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    ;
+}
+
+.flower-container p {
+
+    line-height: 15px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 150px;
+    }
+
+    nav.navbar {
+        margin-top: 10px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+
+    .flower-container img {
+        height: 150px;
+    }
+
+    .flower-container h3 {
+        font-size: 18px;
+    }
+
+    .flower-container p {
+        font-size: 14px;
+    }
+
+    .flower-container .subtitle {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header img {
+        width: 100px;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .container h1 {
+        font-size: 1.2rem;
+    }
+
+    .flower-container img {
+        height: 100px;
+    }
+
+    .flower-container h3 {
+        font-size: 16px;
+    }
+
+    .flower-container p {
+        font-size: 12px;
+    }
+
+    .flower-container .subtitle {
+        font-size: 14px;
+    }
+}

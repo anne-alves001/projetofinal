@@ -1,0 +1,154 @@
+body {
+
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+header img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+nav.navbar {
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    color: black
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: #4CAF50;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #13b45c;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #13b45c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #13b45c;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        padding: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+nav.navbar {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        width: 150px;
+    }
+
+    nav.navbar {
+        margin-top: 10px;
+    }
+
+    .container h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header img {
+        width: 100px;
+    }
+
+    .navbar-toggler {
+        margin-right: 0;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+    }
+}
